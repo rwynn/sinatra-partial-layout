@@ -1,0 +1,6 @@
+%p{:class=>"level2"} I am index.haml.  I am something unique.  I was told to #{@message}.
+
+- content_for :placeholder do
+	%p{:class=>"level2"} I am content for a placeholder.  I go wherever you yielded my name.
+
+= haml(:partial, :layout => false, :locals => { :message => "Be partial to haml and not erb." })

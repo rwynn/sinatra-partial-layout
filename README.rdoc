@@ -1,0 +1,20 @@
+= sinatra-partial-layout
+
+examples of partials and layouts on Sinatra.  the idea is keep things DRY.
+
+== Requirements
+
+* sudo gem install sinatra
+* sudo gem install sinatra-content-for
+* sudo gem install haml
+
+== See the output with
+
+* ruby sinatra_partial_layout.rb
+* browse to http://localhost:4567/
+
+== Copyright
+
+Copyright (c) 2011 Ryan Wynn. See LICENSE.txt for
+further details.
+

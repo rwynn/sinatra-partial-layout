@@ -4,9 +4,9 @@ examples of partials and layouts on Sinatra.  the idea is keep things DRY.
 
 == Requirements
 
-* sudo gem install sinatra
-* sudo gem install sinatra-content-for
-* sudo gem install haml
+* gem install sinatra
+* gem install sinatra-contrib
+* gem install haml
 
 == See the output with
 
